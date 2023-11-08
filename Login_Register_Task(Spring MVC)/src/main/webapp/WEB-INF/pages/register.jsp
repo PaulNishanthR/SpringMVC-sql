@@ -33,7 +33,7 @@
     <% if(request.getAttribute("error") != null){
         out.print("<p>Invalid Credentials!!!</p>");
         } %>
-        <input class="btn btn-warning" type="submit" value="register"/>
+        <input class="btn btn-success" type="submit" value="register"/>
     </form>
     </body>
     </html>

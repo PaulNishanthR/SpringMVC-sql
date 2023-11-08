@@ -15,7 +15,7 @@
     <% if(request.getAttribute("error") != null){
     out.print("<p>Invalid Credentials!!!</p>");
     } %>
-    <input class="btn btn-primary" type="submit" value="login"/>
+    <input class="btn btn-success" type="submit" value="login"/>
 
 </form></div>
 

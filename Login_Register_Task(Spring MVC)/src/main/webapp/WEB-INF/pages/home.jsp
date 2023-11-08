@@ -7,14 +7,29 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body>
-<h2 class="text-danger mt-4 mx-5">USER DETAILS</h2>
-<form>
-<p class="fs-4 mt-3 mx-5">FirstName : ${firstname}</p>
-<p class="fs-4 mx-5">LastName : ${lastname}</p>
-<p class="fs-4 mx-5">Sports : ${sports}</p>
-<p class="fs-4 mx-5">Gender : ${gender}</p>
-<p class="fs-4 mx-5">Course : ${course}</p>
-<p class="fs-4 mx-5">Email : ${email}</p>
-</form>
+<h4 class="text-primary mt-3 mx-4">USER DETAILS</h4>
+<table class="table m-5 " >
+  <thead>
+    <tr>
+      <th scope="col">FirstName</th>
+      <th scope="col">LastName</th>
+      <th scope="col">Sports</th>
+      <th scope="col">Gender</th>
+      <th scope="col">Course</th>
+      <th scope="col">Email</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>${firstname}</td>
+      <td>${lastname}</td>
+      <td>${sports}</td>
+      <td>${gender}</td>
+      <td>${course}</td>
+      <td>${email}</td>
+    </tr>
+  </tbody>
+</table>
 </body>
 </html>
